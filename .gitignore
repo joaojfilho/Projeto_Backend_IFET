@@ -1,0 +1,95 @@
+# ==========================
+# Node.js / Backend
+# ==========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build / dist
+dist/
+build/
+.cache/
+.tmp/
+out/
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+*.log.*
+*.out
+*.err
+
+# ==========================
+# Frontend (React / Vite / Webpack)
+# ==========================
+# Dependências já ignoradas acima (node_modules/)
+# Builds
+*.tsbuildinfo
+.vite/
+.next/
+.nuxt/
+.svelte-kit/
+.storybook-out/
+
+# Cache de ferramentas de frontend
+.cache-loader/
+.eslintcache
+.stylelintcache
+.parcel-cache/
+.fusebox/
+.rpt2_cache/
+.pnp.*
+.babelrc.js
+babel.config.js
+
+# ==========================
+# TypeScript
+# ==========================
+*.tsbuildinfo
+
+# ==========================
+# Testes
+# ==========================
+coverage/
+.nyc_output/
+jest-cache/
+jest-coverage/
+.vscode-test/
+
+# ==========================
+# IDE / Editor
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.swm
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Docker / CI
+# ==========================
+docker-compose.override.yml
+.docker/
+*.pid
+*.seed
+*.pid.lock
+
+# ==========================
+# Outros
+# ==========================
+# Uploads temporários
+uploads/
+tmp/
