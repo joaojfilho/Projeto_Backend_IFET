@@ -7,7 +7,7 @@ Instalar o Prisma:
 > npm install -D prisma
 
 Instalar o Client do Prisma:
-> npm install @prisma/cliente
+> npm install @prisma/client
 
 Inicializar o Prisma:
 > npx prisma init
